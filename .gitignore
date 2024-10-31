@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Структура
+src/
+├── components/
+│   ├── MovieCast/
+│   │   └── MovieCast.jsx
+│   │   └── MovieCast.module.css
+│   ├── MovieReviews/
+│   │   └── MovieReviews.jsx
+│   │   └── MovieReviews.module.css
+│   ├── MovieList/
+│   │   └── MovieList.jsx
+│   │   └── MovieList.module.css
+│   └── Navigation/
+│       └── Navigation.jsx
+│       └── Navigation.module.css
+│
+├── pages/
+│   ├── HomePage/
+│   │   └── HomePage.jsx
+│   │   └── HomePage.module.css
+│   ├── MoviesPage/
+│   │   └── MoviesPage.jsx
+│   │   └── MoviesPage.module.css
+│   ├── MovieDetailsPage/
+│   │   └── MovieDetailsPage.jsx
+│   │   └── MovieDetailsPage.module.css
+│   └── NotFoundPage/
+│       └── NotFoundPage.jsx
+│       └── NotFoundPage.module.css
+│
+├── App.js
+└── index.js
