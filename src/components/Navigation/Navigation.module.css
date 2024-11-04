@@ -1,0 +1,17 @@
+.link {
+
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a.active {
+    color: white;
+    border: 1px solid white;
+    
+}
