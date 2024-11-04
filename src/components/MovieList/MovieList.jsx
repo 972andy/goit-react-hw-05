@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import { getTrendingMovies } from "../../api/movies";
+import { getTrendingMovies } from "../../api/movies";
 import { Link, useLocation } from "react-router-dom";
 import style from './MovieList.module.css';
 
