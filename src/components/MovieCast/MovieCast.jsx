@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"; // Додайте імпорт React
+import React, { useEffect, useState } from "react"; 
 import { useParams } from "react-router-dom"; 
 import { getMoviesDetailsCredits } from "../../api/moviesDetails";
 
@@ -42,3 +42,5 @@ const MovieCast = () => {
 }
 
 export default MovieCast;
+
+
